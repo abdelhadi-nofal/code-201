@@ -383,21 +383,21 @@ right colors, fonts, and so on.
 
 HOW HTML, CSS, & JAVASCRIPT FIT TOGETHER
 
-HTML ONLY
+#### HTML ONLY
 
 Starting with the HTML layer allows you to focus on the most important thing about your site:
 its content. Being plain HTML, this layer should work on all kinds of
 devices, be accessible to all users, and load quite quickly on
 slow connections.
 
-HTML+CSS
+#### HTML+CSS
 
 Adding the CSS rules in a separate file keeps rules regarding how the page looks
 away from the content itself. You can use the same style sheet
 with all of your site, making your sites faster to load and easier to maintain.
  Or you can use different style sheets with the same content to create different views of the same data.
 
-HTML+CSS+JAVASCRIPT
+#### HTML+CSS+JAVASCRIPT
 
 The JavaScript is added last and enhances the usability of the page or the experience of
 interacting with the site.
