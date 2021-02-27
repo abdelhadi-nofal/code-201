@@ -1,4 +1,4 @@
-Structure
+# Structure
 
 How Pages Use Structure ?
 Think about the stories you read in a newspaper: for each story, there will be a headline,
@@ -15,41 +15,56 @@ areas for you to fill in details or checkboxes to tick. Again, the structure is 
 HTML Uses Elements to Describe the Structure of Pages:
 Let's look closer at the code from the last page.There are several different elements. Each
 element has an opening tag and a closing tag.
-<html>
-<body>
-<h1>This is the Main Heading</h1>
-<p>This text might be an introduction to the rest of
-the page. And if the page is a long one it might
-be split up into several sub-headings.<p>
-<h2>This is a Sub-Heading</h2>
-<p>Many long articles have sub-headings so to help
-you follow the structure of what is being written.
-There may even be sub-sub-headings (or lower-level
-headings).</p>
-<h2>Another Sub-Heading</h2>
-<p>Here you can see another sub-heading.</p>
-</body>
-</html>
 
-Tags Body, Head & Title:
-<body>
-You met the <body> element in the first example we created.
+`<html>`
+
+`<body>`
+
+`<h1>This is the Main Heading</h1>`
+
+`<p>This text might be an introduction to the rest of`
+`the page. And if the page is a long one it might`
+`be split up into several sub-headings.<p>`
+
+`<h2>This is a Sub-Heading</h2>`
+
+`<p>Many long articles have sub-headings so to help`
+`you follow the structure of what is being written.`
+`There may even be sub-sub-headings (or lower-level`
+`headings).</p>`
+
+`<h2>Another Sub-Heading</h2>`
+
+`<p>Here you can see another sub-heading.</p>`
+
+`</body>`
+
+`</html>`
+
+## Tags Body, Head & Title:
+
+`<body>`
+
+You met the "body` element in the first example we created.
 Everything inside this element is shown inside the main browser window.
 
-<head>
-Before the <body> element you will often see a <head> element.
+
+`<head>`
+
+Before the body element you will often see a head element.
 This contains information about the page (rather than information that is shown within
 the main part of the browser window that is highlighted in blue on the opposite page).
-You will usually find a <title> element inside the <head> element.
+You will usually find a <title> element inside the head element.
   
-<title>
-The contents of the <title> element are either shown in the
-top of the browser, above where you usually type in the URL of the page you want to visit, or
+`<title>`
+
+The contents of the <title> element are either shown in the top of the browser,
+above where you usually type in the URL of the page you want to visit,or
 on the tab for that page (if your browser uses tabs to allow you to view multiple pages at the same time).  
 
 ***
 
-Extra Markup
+# Extra Markup
 
 The Evolution of HTML:
 Each new version was designed to be an improvement on the
@@ -69,27 +84,27 @@ authors were rapidly adopting the new markup."
 
 DOCTYPEs
 HTML5
-<!DOCTYPE html>
+`<!DOCTYPE html>`
 
 HTML 4
-<!DOCTYPE html PUBLIC
-"-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+`<!DOCTYPE html PUBLIC`
+`"-//W3C//DTD HTML 4.01 Transitional//EN"`
+`"http://www.w3.org/TR/html4/loose.dtd">`
 
 Transitional XHTML 1.0
-<!DOCTYPE html PUBLIC
-"-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/
-xhtml1-transitional.dtd">
+`<!DOCTYPE html PUBLIC`
+`"-//W3C//DTD XHTML 1.0 Transitional//EN"`
+`"http://www.w3.org/TR/xhtml1/DTD/`
+`xhtml1-transitional.dtd">`
 
 Comments in HTML :
-<!-- -->
+`<!-- -->`
 
 ID Attribute :
-<p id="">
+`<p id="">`
   
 Class Attribute :
- <p class="">
+ `<p class="">`
 
 Block Elements :Some elements will always
 appear to start on a new line in
@@ -97,39 +112,43 @@ the browser window. These are
 known as block level elements.
 
 Inline Elements :
-<em>  </b>
+`<em>  </b>`
 
 Grouping Text & Elements In a Block :
-<div>
+`<div>`
   
 Grouping Text &Elements Inline :
-<span>
+`<span>`
   
 IFrames :
-<iframe>
+`<iframe>`
   
 Information About Your Pages :
-<meta>
+`<meta>`
 
 
 ***
 
 
-HTML5 Layout
+## HTML5 Layout
 
-Traditional HTML Layouts:
+### Traditional HTML Layouts:
 For a long time, web page authors used <div> elements to group
 together related elements on the page (such as the elements that form a
 header, an article, footer or sidebar). Authors used class or id attributes
 to indicate the role of the <div> element in the structure of the page.
 
-New Html 5 Layout Elements :
+![](https://i.postimg.cc/vHkQ6wHy/Untitsled.jpg)
+
+
+### New Html 5 Layout Elements :
 
 HTML5 introduces a new set of elements that allow you to divide up the
 parts of a page. The names of these elements indicate the kind of content
 you will find in them. They are still subject to change, but that has not
 stopped many web page authors using them already.
 
+![](https://i.postimg.cc/W4KmB3sK/Untitfsled.jpg)
 
 
 
