@@ -1,4 +1,4 @@
-# HTML & JavaSCRIPT
+# HTML & JavaScript
 
 ## Structure By HTML
 
