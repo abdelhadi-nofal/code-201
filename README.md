@@ -3,7 +3,7 @@ Code 201 Reading Notes
 
 
 Heloo everybody my name is abdelhadi nofal this my code-201-reading-notes
-This my profile on git hub : [My Profile](https://github.com/abdelhadi-nofal)
+This is my profile on git hub : [My Profile](https://github.com/abdelhadi-nofal)
  
  ***
  
