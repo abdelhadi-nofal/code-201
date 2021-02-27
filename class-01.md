@@ -151,10 +151,63 @@ stopped many web page authors using them already.
 ![](https://i.postimg.cc/W4KmB3sK/Untitfsled.jpg)
 
 
+### Headers & Footers
+The `<header>` and `<footer>` elements can be used for:
 
+● The main header or footer that appears at the top or bottom of every page on the site.
+
+● A header or footer for an individual `<article>` or `<section>` within the page.
+
+![](https://i.postimg.cc/qvM6LCPr/Untitfsled.jpg)
   
 
-fundamentals to build a website such as :
+### Navigation `<nav>`
+
+The <nav> element is used to contain the major navigational
+blocks on the site such as the primary site navigation.
+
+![](https://i.postimg.cc/XYJXF657/Untitfsled.jpg)
+
+### Articles `<article>`
+
+The <article> element acts as a container for any section of a
+page that could stand alone and potentially be syndicated.
+
+### Aside `<aside>`
+
+The `<aside>` element has two purposes, depending on whether
+it is inside an `<article>` element or not.
+
+### Sections `<section>`
+
+The <section> element groups related content together, and
+typically each section would have its own heading.
+
+### Heading Groups `<hgroup>`
+
+The purpose of the `<hgroup>` element is to group together a
+set of one or more `<h1>` through `<h6>` elements so that they are
+treated as one single heading.
+
+### Figures `<figure>` `<figcaption>`
+
+You already met the `<figure>` element in Chapter 5 when we
+looked at images. It can be used to contain any content that is
+referenced from the main flow of an article (not just images).
+
+### Sectioning Elements `<div>`
+
+The <div> element will remain an important way to
+group together related elements, because you should not be using
+these new elements that you have just met for purposes other than those explicitly stated.
+
+### Example HTML5 LAYOUT
+
+![](https://i.postimg.cc/m23690sq/Untitfsled.jpg)
+
+***
+
+## Fundamentals to build a website such as :
 
 1.Who is the Site For?
 
@@ -183,3 +236,5 @@ The color property allows you to specify the color of text inside an element. Yo
 hex codes: These are six-digit codes that represent the amount of red, green and blue in a color, preceded by a pound or hash # sign. For example: #ee3e80 color names: There are 147 predefined color names that are recognized by browsers.
 For example: DarkCyan We look at these three different ways of specifying colors on the next double-page spread.
 CSS3 has also introduced another way to specify colors called HSLA.
+
+
