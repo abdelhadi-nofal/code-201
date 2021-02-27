@@ -1,4 +1,6 @@
-# Structure
+# HTML & JavaSCRIPT
+
+## Structure By HTML
 
 How Pages Use Structure ?
 Think about the stories you read in a newspaper: for each story, there will be a headline,
@@ -207,7 +209,7 @@ these new elements that you have just met for purposes other than those explicit
 
 ***
 
-## Fundamentals to build a website such as :
+## The Main Fundamentals to build a website :
 
 1.Who is the Site For?
 
@@ -218,6 +220,10 @@ these new elements that you have just met for purposes other than those explicit
 4.What Information Your Visitors Need ?
 
 5.How Of ten People Will Visit Your Site ?
+
+***
+
+## Dsign By CSS
 
 What is CSS?
 CSS stands for Cascading Style Sheets CSS describes how HTML elements are to be displayed on screen, paper, or in other media CSS saves a lot of work. It can control the layout of multiple web pages all at once External stylesheets are stored in CSS files
@@ -378,18 +384,21 @@ right colors, fonts, and so on.
 HOW HTML, CSS, & JAVASCRIPT FIT TOGETHER
 
 HTML ONLY
+
 Starting with the HTML layer allows you to focus on the most important thing about your site:
 its content. Being plain HTML, this layer should work on all kinds of
 devices, be accessible to all users, and load quite quickly on
 slow connections.
 
 HTML+CSS
+
 Adding the CSS rules in a separate file keeps rules regarding how the page looks
 away from the content itself. You can use the same style sheet
 with all of your site, making your sites faster to load and easier to maintain.
  Or you can use different style sheets with the same content to create different views of the same data.
 
 HTML+CSS+JAVASCRIPT
+
 The JavaScript is added last and enhances the usability of the page or the experience of
 interacting with the site.
 Keeping it separate means that the page still works if the user cannot load or run the
