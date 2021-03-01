@@ -250,3 +250,159 @@ Example
 `margin: 20px auto 20px auto;`
 `font-weight: normal;}`
 
+***
+
+## Decisions and Loops
+
+Decision Making Statements
+Decision Making in programming is similar to decision making in real life.
+A programming language uses control statements to control the flow of execution of the program based on certain conditions.
+JavaScript’s conditional statements are:
+1) if
+2) if-else
+3) if…else…if
+4) switch
+1) if statement
+if statement is the most simple decision making statement.
+It is used to decide whether a certain statement or block of statements will be executed or not.
+If a certain condition is true then a block of statement is executed otherwise not.
+Syntax
+`if ( condition ) `
+`{`
+   `// block of code to be executed`
+`}`
+
+2) if…else statement
+The if-else statement has two parts if block and else block.
+If the condition is true then if block (true block) will get executed and if the condition is false then else block (false block) will get executed.
+Syntax
+
+`if ( condition )  `
+`{`
+    `// block of code to be executed when condition is true`
+`} `
+`else `
+`{`
+    `// block of code to be executed when condition is false`
+`}`
+
+3) if…else...if statement
+The if…else…if statement statement is an advanced form of if…else that allows JavaScript to make a correct decision out of several conditions.
+All the if conditions will be checked one by one. If any condition is true out of given then that block will get executed and other blocks are skipped.
+Syntax
+
+`if ( condition 1 )  `
+`{`
+    `// block of code to be executed when condition 1 is true`
+`} `
+`else if ( condition 2 )  `
+`{`
+    `// block of code to be executed when condition 2 is true`
+`} `
+`else if ( condition 3 )  `
+`{`
+    `// block of code to be executed when condition 2 is true`
+`}`
+`else`
+`{`
+   `// block of code to be executed if no condition matches`
+`}`
+
+4) switch statement
+The objective of a switch statement is to give an expression to evaluate and several different statements to execute based on the value of the expression.
+The interpreter checks each case against the value of the expression until a match is found. If nothing matches, a default condition will be used.
+Syntax
+
+`switch (expression) `
+`{`
+   `case c1: statement(s)`
+            `break;`
+   
+   `case c2: statement(s)`
+            `break;`
+   `...`
+   
+   `case cn: statement(s)`
+            `break;`
+   
+   `default: statement(s)`
+`}`
+
+Looping Statements
+Looping in programming languages facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true.
+For example, suppose we want to print “Hello World” 10 times this is possible with the help of loops.
+There are mainly two types of loops:
+1) Entry Controlled loops: In this type of loops the test condition is tested before entering the loop body. For Loop and While Loop are entry controlled loops.
+2) Exit Controlled Loops: In this type of loops the test condition is tested or evaluated at the end of loop body. Therefore, the loop body will execute atleast once, irrespective of whether the test condition is true or false. do-while loop is exit controlled loop.
+Following are the types of loops in JavaScript:
+1) while loop
+2) do-while loop
+3) for loop
+4) for…in loop
+1) while loop
+A while loop is a entry-controlled loop that allows code to be executed repeatedly if the condition is true.
+When the condition becomes false, the loop terminates which marks the end of its life cycle.
+The while loop executes ZERO or MORE times.
+Syntax
+
+`while (condition)`
+`{`
+   `// Statements to be executed`
+`}`
+
+2) do-while loop
+A do-while loop is a exit-controlled loop that allows code to be executed first and after that checks for condition and depending on that it executed repeatedly.
+When the condition becomes false, the loop terminates which marks the end of its life cycle.
+The do-while loop executes ONE or MORE times.
+Syntax
+
+`do`
+`{`
+    `// Statements to be executed`
+`}  while (condition);`
+
+3) for loop
+A for loop is a entry-controlled loop that allows code to be executed repeatedly.
+It provides a concise way of writing the loop structure.
+Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line thereby providing a shorter, easy to debug structure of looping.
+The for loop executes ZERO or MORE times
+Syntax
+
+`for (initialization; condition; increment/decrement)`
+`{`
+    `// Statements to be executed`
+`}`
+
+4) for…in loop
+JavaScript also includes another version of for loop also known as the for..in loops.
+The for..in loop provides a simpler way to iterate through the properties of an object.
+This loop is seen to be very useful while working with objects.
+In each iteration, one of the properties of Object is assigned to the variable named variableName and this loop continues until all of the properties of the Object are processed.
+Syntax
+
+`for (variableName in Object)`
+`{`
+    `// Statements to be executed`
+`}`
+
+### SAMPLE PROGRAMS
+Develop a JS program to display numbers from 1 to 10.
+
+`<html>`
+    `<head>`
+        `<title>Display Numbers from 1 to 10</title>`
+    `</head>`
+    `<body>`
+        `<h3>Numbers from 1 to 10 are</h3>`
+        `<script type="text/javascript">`
+            `var a = 1; `
+  
+            `while (a <= 10) `
+            `{ `
+                `document.write(a + "<br />"); `
+                `a++; `
+            `}`
+        `</script>`
+    `</body>`
+`</html>`
+
