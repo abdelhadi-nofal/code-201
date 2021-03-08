@@ -21,8 +21,8 @@ _This is my profile on git hub : [My Profile](https://github.com/abdelhadi-nofal
  | class-03                            | [class-03](https://abdelhadi-nofal.github.io/code-201/class-03)              | 
  | class-04                            | [class-04](https://abdelhadi-nofal.github.io/code-201/class-04)              |
  | class-05                            | [class-05](https://abdelhadi-nofal.github.io/code-201/class-05)              |
- | class-06                            | [class-06](https://abdelhadi-nofal.github.io/code-201/class-06)                                                                         |
- | reading_assignment_no7              | LINK                                                                         |
+ | class-06                            | [class-06](https://abdelhadi-nofal.github.io/code-201/class-06)              |
+ | class-07                            | [class-07](https://abdelhadi-nofal.github.io/code-201/class-07)              |
  | reading_assignment_no8              | LINK                                                                         |
  | reading_assignment_no9              | LINK                                                                         |
  | reading_assignment_no10             | LINK                                                                         |   
