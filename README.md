@@ -23,7 +23,7 @@ _This is my profile on git hub : [My Profile](https://github.com/abdelhadi-nofal
  | class-05                            | [class-05](https://abdelhadi-nofal.github.io/code-201/class-05)              |
  | class-06                            | [class-06](https://abdelhadi-nofal.github.io/code-201/class-06)              |
  | class-07                            | [class-07](https://abdelhadi-nofal.github.io/code-201/class-07)              |
- | reading_assignment_no8              | LINK                                                                         |
+ | class-08                            | [class-08](https://abdelhadi-nofal.github.io/code-201/class-08)              |
  | reading_assignment_no9              | LINK                                                                         |
  | reading_assignment_no10             | LINK                                                                         |   
  | reading_assignment_no11             | LINK                                                                         |
