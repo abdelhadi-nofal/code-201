@@ -170,7 +170,7 @@ Example
 
 ***
 
-Functions, Methods, and Object
+## Functions, Methods, and Object
 
 All objects in JavaScript inherit from at least one other object. The object being inherited from is known as the prototype, and the inherited properties can be found in the prototype object of the constructor. See Inheritance and the prototype chain for more information.
 
