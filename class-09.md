@@ -96,3 +96,19 @@ Each row in the table is defined with the <tr> tag.
 A table heading is defined with the <th> tag. (Headings are bold and centred by default.)
 Each cell of data in the table is defined with the <td> tag.
 Basic table: Set up a table with three headings to your page, by adding the following code to your document under the “ordered list” code. This is a real-life example that lists a weekly class schedule. The <th> tags will form the columns in this table, and the <td> tags will form the rows.   
+
+
+# Event reference
+DOM Events are fired to notify code of "interesting changes" that may affect code execution.
+
+ These can arise from user interactions such as using a mouse or resizing a window, changes in the 
+
+state of the underlying environment (e.g. low battery or media events from the operating system), and other causes.
+
+Each event is represented by an object that is based on the Event interface, and may have additional custom fields
+
+ and/or functions to provide information about what happened. The documentation for every event has a table (near the top) 
+
+that includes a link to the associated event interface, and other relevant information. A full list of the different event types is given in Event > Interfaces based on Event.
+
+This topic provides an index to the main sorts of events you might be interested in (animation, clipboard, workers etc.) along with the main classes that implement those sorts of events. At the end is a flat list of all documented events.
