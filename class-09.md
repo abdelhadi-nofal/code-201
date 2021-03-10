@@ -105,7 +105,8 @@ Each row in the table is defined with the `<tr>` tag. A table heading is defined
  
 
 
-# Event reference
+## Event 
+
 DOM Events are fired to notify code of "interesting changes" that may affect code execution.
 
  These can arise from user interactions such as using a mouse or resizing a window, changes in the 
@@ -119,3 +120,350 @@ Each event is represented by an object that is based on the Event interface, and
 that includes a link to the associated event interface, and other relevant information. A full list of the different event types is given in Event > Interfaces based on Event.
 
 This topic provides an index to the main sorts of events you might be interested in (animation, clipboard, workers etc.) along with the main classes that implement those sorts of events. At the end is a flat list of all documented events.
+
+Event listing
+
+This section lists events that have their own reference pages on MDN. If you are interested in an event that isn't listed here, try searching for its name, topic area, or associated specification on the rest of MDN.
+
+AbortSignal
+abort event
+AudioScheduledSourceNode
+ended event
+AudioTrackList
+addtrack event
+change event
+removetrack event
+BroadcastChannel
+messageerror event
+message event
+DedicatedWorkerGlobalScope
+messageerror event
+message event
+Document
+animationcancel event
+animationend event
+animationiteration event
+animationstart event
+copy event
+cut event
+DOMContentLoaded event
+dragend event
+dragenter event
+dragleave event
+dragover event
+dragstart event
+drag event
+drop event
+fullscreenchange event
+fullscreenerror event
+gotpointercapture event
+keydown event
+keypress event
+keyup event
+lostpointercapture event
+paste event
+pointercancel event
+pointerdown event
+pointerenter event
+pointerleave event
+pointerlockchange event
+pointerlockerror event
+pointermove event
+pointerout event
+pointerover event
+pointerup event
+readystatechange event
+scroll event
+selectionchange event
+selectstart event
+touchcancel event
+touchend event
+touchmove event
+touchstart event
+transitioncancel event
+transitionend event
+transitionrun event
+transitionstart event
+visibilitychange event
+wheel event
+Element
+afterscriptexecute event
+auxclick event
+beforescriptexecute event
+blur event
+click event
+compositionend event
+compositionstart event
+compositionupdate event
+contextmenu event
+copy event
+cut event
+dblclick event
+DOMActivate event
+DOMMouseScroll event
+error event
+focusin event
+focusout event
+focus event
+fullscreenchange event
+fullscreenerror event
+gesturechange event
+gestureend event
+gesturestart event
+keydown event
+keypress event
+keyup event
+mousedown event
+mouseenter event
+mouseleave event
+mousemove event
+mouseout event
+mouseover event
+mouseup event
+mousewheel event
+msContentZoom event
+MSGestureChange event
+MSGestureEnd event
+MSGestureHold event
+MSGestureStart event
+MSGestureTap event
+MSInertiaStart event
+MSManipulationStateChanged event
+overflow event
+paste event
+scroll event
+select event
+show event
+touchcancel event
+touchend event
+touchmove event
+touchstart event
+underflow event
+webkitmouseforcechanged event
+webkitmouseforcedown event
+webkitmouseforceup event
+webkitmouseforcewillbegin event
+wheel event
+EventSource
+error event
+message event
+open event
+FileReader
+abort event
+error event
+loadend event
+loadstart event
+load event
+progress event
+HTMLCanvasElement
+webglcontextcreationerror event
+webglcontextlost event
+webglcontextrestored event
+HTMLDetailsElement
+toggle event
+HTMLDialogElement
+cancel event
+close event
+HTMLElement
+animationcancel event
+animationend event
+animationiteration event
+animationstart event
+beforeinput event
+change event
+gotpointercapture event
+input event
+lostpointercapture event
+pointercancel event
+pointerdown event
+pointerenter event
+pointerleave event
+pointermove event
+pointerout event
+pointerover event
+pointerup event
+transitioncancel event
+transitionend event
+transitionrun event
+transitionstart event
+HTMLFormElement
+formdata event
+reset event
+submit event
+HTMLInputElement
+invalid event
+search event
+HTMLMediaElement
+abort event
+canplaythrough event
+canplay event
+durationchange event
+emptied event
+ended event
+error event
+loadeddata event
+loadedmetadata event
+loadstart event
+pause event
+playing event
+play event
+progress event
+ratechange event
+seeked event
+seeking event
+stalled event
+suspend event
+timeupdate event
+volumechange event
+waiting event
+HTMLSlotElement
+slotchange event
+HTMLTrackElement
+cuechange event
+HTMLVideoElement
+enterpictureinpicture event
+leavepictureinpicture event
+IDBDatabase
+abort event
+close event
+error event
+versionchange event
+IDBOpenDBRequest
+blocked event
+upgradeneeded event
+IDBRequest
+error event
+success event
+IDBTransaction
+abort event
+complete event
+error event
+MediaDevices
+devicechange event
+MediaRecorder
+error event
+MediaStream
+addtrack event
+removetrack event
+MediaStreamTrack
+ended event
+mute event
+unmute event
+MessagePort
+messageerror event
+message event
+OfflineAudioContext
+complete event
+PaymentRequest
+merchantvalidation event
+paymentmethodchange event
+shippingaddresschange event
+shippingoptionchange event
+PaymentResponse
+payerdetailchange event
+Performance
+resourcetimingbufferfull event
+PictureInPictureWindow
+resize event
+RTCDataChannel
+bufferedamountlow event
+close event
+closing event
+error event
+message event
+open event
+RTCDtlsTransport
+error event
+RTCDTMFSender
+tonechange event
+RTCIceTransport
+gatheringstatechange event
+selectedcandidatepairchange event
+statechange event
+RTCPeerConnection
+addstream event
+connectionstatechange event
+datachannel event
+icecandidateerror event
+icecandidate event
+iceconnectionstatechange event
+icegatheringstatechange event
+identityresult event
+idpassertionerror event
+idpvalidationerror event
+negotiationneeded event
+peeridentity event
+removestream event
+signalingstatechange event
+track event
+ScriptProcessorNode
+audioprocess event
+ServiceWorkerContainer
+message event
+ServiceWorkerGlobalScope
+activate event
+contentdelete event
+install event
+message event
+notificationclick event
+pushsubscriptionchange event
+push event
+SharedWorkerGlobalScope
+connect event
+SpeechRecognition
+audioend event
+audiostart event
+end event
+error event
+nomatch event
+result event
+soundend event
+soundstart event
+speechend event
+speechstart event
+start event
+SpeechSynthesis
+voiceschanged event
+SpeechSynthesisUtterance
+boundary event
+end event
+error event
+mark event
+pause event
+resume event
+start event
+SVGAnimationElement
+beginEvent event
+endEvent event
+repeatEvent event
+SVGElement
+abort event
+error event
+load event
+resize event
+scroll event
+unload event
+SVGGraphicsElement
+copy event
+cut event
+paste event
+TextTrack
+cuechange event
+TextTrackList
+addtrack event
+change event
+removeTrack event
+VideoTrackList
+addtrack event
+change event
+removetrack event
+VisualViewport
+resize event
+scroll event
+WebSocket
+close event
+error event
+message event
+open event
+Window
+
