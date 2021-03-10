@@ -87,15 +87,22 @@ imagecircle
 imagesquare
 
 
+***
+
 ## HTML tables
 
-Tables can be a useful way of organising content on a web page, particularly text.
+Tables can be a useful way of organising content on a web page, particularly text. A table is defined with the <table> tag. 
+Each row in the table is defined with the `<tr>` tag. A table heading is defined with the` <th>` tag. 
+ 
+ Headings are bold and centred by default. Each cell of data in the table is defined with the `<td>` tag.
+ Basic table: Set up a table with three headings to your page, by adding the following code to your document under 
+ the `“ordered list”` code. This is a real-life example that lists a weekly class schedule. The `<th>` tags will form the columns in this table,
+ and the `<td>` tags will form the rows.
+  
 
-A table is defined with the <table> tag.
-Each row in the table is defined with the <tr> tag.
-A table heading is defined with the <th> tag. (Headings are bold and centred by default.)
-Each cell of data in the table is defined with the <td> tag.
-Basic table: Set up a table with three headings to your page, by adding the following code to your document under the “ordered list” code. This is a real-life example that lists a weekly class schedule. The <th> tags will form the columns in this table, and the <td> tags will form the rows.   
+
+***
+ 
 
 
 # Event reference
