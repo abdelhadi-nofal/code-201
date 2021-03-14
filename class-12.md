@@ -137,89 +137,174 @@ Conclusion
 You can view a demo of this in action here, and if you prefer copy and paste, here is the full script:
 
 `<!DOCTYPE html>`
+
 `<html lang="en">`
+
     `<head>`
+    
         `<meta charset="utf-8" />`
+	
         `<title>Chart.js demo</title>`
+	
         `<!-- import plugin script -->`
+	
         `<script src='Chart.min.js'></script>`
+	
     `</head>`
+    
     `<body>`
+    
         `<!-- line chart canvas element -->`
+	
         `<canvas id="buyers" width="600" height="400"></canvas>`
+	
+	
         `<!-- pie chart canvas element -->`
+	
         `<canvas id="countries" width="600" height="400"></canvas>`
+	
         `<!-- bar chart canvas element -->`
+	
         `<canvas id="income" width="600" height="400"></canvas>`
+	
         `<script>`
+	
             `// line chart data`
+	    
             `var buyerData = {`
+	    
                 `labels : ["January","February","March","April","May","June"],`
+		
                 `datasets : [`
+		
                 `{`
+		
                     `fillColor : "rgba(172,194,132,0.4)",`
+		    
                     `strokeColor : "#ACC26D",`
+		    
                     `pointColor : "#fff",`
+		    
                     `pointStrokeColor : "#9DB86D",`
+		    
                     `data : [203,156,99,251,305,247]`
+		    
                 `}`
+		
             `]`
+	    
             `}`
+	    
             `// get line chart canvas`
+	    
             `var buyers = document.getElementById('buyers').getContext('2d');`
+	    
             `// draw line chart`
+	    
             `new Chart(buyers).Line(buyerData);`
+	    
             `// pie chart data`
+	    
             `var pieData = [`
+	    
                 `{`
+		
                     `value: 20,`
+		    
                     `color:"#878BB6"`
+		    
                 `},`
+		
                 `{`
+		
                     `value : 40,`
+		    
                     `color : "#4ACAB4"`
+		    
                 `},`
+		
                 `{`
+		
                     `value : 10,`
+		    
                     `color : "#FF8153"`
+		    
                 `},`
+		
                 `{`
+		
                     `value : 30,`
+		    
+		    
                     `color : "#FFEA88"`
+		    
                 `}`
+		
             `];`
+	    
             `// pie chart options`
+	    
             `var pieOptions = {`
+	    
                  `segmentShowStroke : false,`
+		 
                  `animateScale : true`
+		 
             `}`
+	    
             `// get pie chart canvas`
+	    
             `var countries= document.getElementById("countries").getContext("2d");`
+	    
             `// draw pie chart`
+	    
             `new Chart(countries).Pie(pieData, pieOptions);`
+	    
             `// bar chart data`
+	    
             `var barData = {`
+	    
                 `labels : ["January","February","March","April","May","June"],`
+		
                 `datasets : [`
+		
                     `{`
+		    
                         `fillColor : "#48A497",`
+			
                         `strokeColor : "#48A4D1",`
+			
                         `data : [456,479,324,569,702,600]`
+			
                     `},`
+		    
                     `{`
+		    
                         `fillColor : "rgba(73,188,170,0.4)",`
-                        `strokeColor : "rgba(72,174,209,0.4)",`
+			
+                        `strokeColor : "rgba(72,174,209,0.4)",
+			`
+			
                         `data : [364,504,605,400,345,320]`
                     `}`
+		    
                 `]`
             `}`
+	    
             `// get bar chart canvas`
+	    
             `var income = document.getElementById("income").getContext("2d");`
+	    
             `// draw bar chart`
+	    
             `new Chart(income).Bar(barData);`
+	    
         `</script>`
+	
     `</body>`
+    
 `</html>`
+
 
 
 Installation
@@ -233,44 +318,84 @@ In this example, we create a bar chart for a single dataset and render that in o
 
 
 `<canvas id="myChart" width="400" height="400"></canvas>`
+
 `<script>`
+
 `var ctx = document.getElementById('myChart').getContext('2d');`
+
 `var myChart = new Chart(ctx, {`
+
     `type: 'bar',`
+    
     `data: {`
+    
         `labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],`
+	
         `datasets: [{`
+	
             `label: '# of Votes',`
+	    
             `data: [12, 19, 3, 5, 2, 3],`
+	    
             `backgroundColor: [`
+	    
                 `'rgba(255, 99, 132, 0.2)',`
+		
                 `'rgba(54, 162, 235, 0.2)',`
+		
+		
                 `'rgba(255, 206, 86, 0.2)',`
+		
                 `'rgba(75, 192, 192, 0.2)',`
+		
                 `'rgba(153, 102, 255, 0.2)',`
+		
                 `'rgba(255, 159, 64, 0.2)'`
+		
             `],`
             `borderColor: [`
+	    
                 `'rgba(255, 99, 132, 1)',`
+		
                 `'rgba(54, 162, 235, 1)',`
+		
                 `'rgba(255, 206, 86, 1)',`
+		
                 `'rgba(75, 192, 192, 1)',`
+		
                 `'rgba(153, 102, 255, 1)',`
+		
                 `'rgba(255, 159, 64, 1)'`
+		
             `],`
+	    
             `borderWidth: 1`
+	    
         `}]`
+	
     `},`
+    
     `options: {`
+    
         `scales: {`
+	
             `yAxes: [{`
+	    
                 `ticks: {`
+		
                     `beginAtZero: true`
+		    
                 `}`
+		
             `}]`
+	    
+	    
         `}`
+	
     `}`
 `});`
+
+
 `</script>`
 
 
@@ -306,11 +431,15 @@ Providing fallback content is very straightforward: just insert the alternate co
 For example, we could provide a text description of the canvas content or provide a static image of the dynamically rendered content. This can look something like this:
 
 `<canvas id="stockGraph" width="150" height="150">`
+
   `current stock price: .15 + 0.15`
+  
 `</canvas>`
 
 `<canvas id="clock" width="150" height="150">`
+
   `<img src="images/clock.png" width="150" height="150" alt=""/>`
+  
 `</canvas>`
 
 
@@ -335,11 +464,17 @@ The fallback content is displayed in browsers which do not support <canvas>. Scr
 
 `var canvas = document.getElementById('tutorial');`
 
+
 `if (canvas.getContext) {`
+
   `var ctx = canvas.getContext('2d');`
+  
   `// drawing code here`
+  
 `} else {`
+
   `// canvas-unsupported code here`
+  
 `}`
 
 
@@ -349,25 +484,44 @@ Here is a minimalistic template, which we'll be using as a starting point for la
 Note: it is not good practice to embed a script inside HTML. We do it here to keep the example concise.
 
 `<!DOCTYPE html>`
+
 `<html>`
+
   `<head>`
+  
     `<meta charset="utf-8"/>`
     `<title>Canvas tutorial</title>`
+    
     `<script type="text/javascript">`
+    
       `function draw() {`
+      
         `var canvas = document.getElementById('tutorial');`
+	
         `if (canvas.getContext) {`
+	
           `var ctx = canvas.getContext('2d');`
+	  
         `}`
+	
       `}`
+      
     `</script>`
+    
     `<style type="text/css">`
+    
       `canvas { border: 1px solid black; }`
+      
     `</style>`
+    
   `</head>`
+  
   `<body onload="draw();">`
+  
     `<canvas id="tutorial" width="150" height="150"></canvas>`
+    
   `</body>`
+  
 `</html>`
 
 
@@ -378,27 +532,46 @@ A simple example
 To begin, let's take a look at a simple example that draws two intersecting rectangles, one of which has alpha transparency. We'll explore how this works in more detail in later examples.
 
 `<!DOCTYPE html>`
+
 `<html>`
+
  `<head>`
+ 
   `<meta charset="utf-8"/>`
+  
   `<script type="application/javascript">`
+  
     `function draw() {`
+    
       `var canvas = document.getElementById('canvas');`
+      
       `if (canvas.getContext) {`
+      
         `var ctx = canvas.getContext('2d');`
+	
 
         `ctx.fillStyle = 'rgb(200, 0, 0)';`
+	
         `ctx.fillRect(10, 10, 50, 50);`
 
         `ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';`
+	
         `ctx.fillRect(30, 30, 50, 50);`
+	
       `}`
+      
     `}`
+    
   `</script>`
+  
  `</head>`
+ 
  `<body onload="draw();">`
+ 
    `<canvas id="canvas" width="150" height="150"></canvas>`
+   
  `</body>`
+ 
 `</html>`
 
 
@@ -428,14 +601,22 @@ Rectangular shape example
 
 
 ``function draw() {``
+
   ``var canvas = document.getElementById('canvas');``
+  
   ``if (canvas.getContext) {``
+  
     ``var ctx = canvas.getContext('2d');``
+    
 
     ``ctx.fillRect(25, 25, 100, 100);``
+    
     ``ctx.clearRect(45, 45, 60, 60);``
+    
     ``ctx.strokeRect(50, 50, 50, 50);``
+    
   ``}``
+  
 ``}``
 
 
@@ -486,14 +667,23 @@ A fillStyle example
 In this example, we once again use two for loops to draw a grid of rectangles, each in a different color. The resulting image should look something like the screenshot. There is nothing too spectacular happening here. We use the two variables i and j to generate a unique RGB color for each square, and only modify the red and green values. The blue channel has a fixed value. By modifying the channels, you can generate all kinds of palettes. By increasing the steps, you can achieve something that looks like the color palettes Photoshop uses.
 
 `function draw() {`
+
   `var ctx = document.getElementById('canvas').getContext('2d');`
+  
   `for (var i = 0; i < 6; i++) {`
+  
     `for (var j = 0; j < 6; j++) {`
+    
       `ctx.fillStyle = 'rgb(' + Math.floor(255 - 42.5 * i) + ', ' +`
+      
                        `Math.floor(255 - 42.5 * j) + ', 0)';`
+		       
       `ctx.fillRect(j * 25, i * 25, 25, 25);`
+      
     `}`
+    
   `}`
+  
 `}`
 
 ### Drawing text
@@ -509,9 +699,13 @@ A fillText example
 The text is filled using the current fillStyle.
 
 `function draw() {`
+
   `var ctx = document.getElementById('canvas').getContext('2d');`
+  
   `ctx.font = '48px serif';`
+  
   `ctx.fillText('Hello world', 10, 50);`
+  
 `}`
 
 Styling text
