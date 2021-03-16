@@ -30,4 +30,4 @@ _This is my profile on git hub : [My Profile](https://github.com/abdelhadi-nofal
  | class-12                            | [class-12](https://abdelhadi-nofal.github.io/code-201/class-12)              |
  | class-13                            | [class-13](https://abdelhadi-nofal.github.io/code-201/class-13)              |
  | class-14                            | [class-14](https://abdelhadi-nofal.github.io/code-201/class-14)              |   
- | class-15                            | [class-15](https://abdelhadi-nofal.github.io/code-201/class-15)              |
+ | class-14-b                          | [class-14-b](https://abdelhadi-nofal.github.io/code-201/class-14-b)          |
